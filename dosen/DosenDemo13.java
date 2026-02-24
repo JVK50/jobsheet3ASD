@@ -39,6 +39,13 @@ public class DosenDemo13 {
             System.out.println("--------------------------------------");
         }
         
+        dataDosen13 dataDosen = new dataDosen13();
+        dataDosen.dataSemuaDosen(arrayOfDosen);
+        dataDosen.jumlahDosenPerJenisKelamin(arrayOfDosen);
+        dataDosen.rerataUsiaDosenPerJenisKelamin(arrayOfDosen);
+        dataDosen.infoDosenPalingTua(arrayOfDosen);
+        dataDosen.infoDosenPalingMuda(arrayOfDosen);
+        
         jvk.close();
     }
 }
